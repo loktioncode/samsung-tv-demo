@@ -1,29 +1,35 @@
-import React, {useState} from 'react';
-import {ScrollButton} from '.ScrollButton';
-import '../App.css';
+import React, { useEffect, useState } from "react";
+
+export default ScrollArrow = () => {
+  const [isVisible, setIsVisible] = useState(false);
 
 
-const ScrollArrow = () =>{
-
-  const [showScroll, setShowScroll] = useState(false)
-
-  const checkScrollTop = () => {
-    if (!showScroll && window.pageYOffset > 400){
-      setShowScroll(true)
-    } else if (showScroll && window.pageYOffset <= 400){
-      setShowScroll(false)
+  const toggleVisibility = () => {
+    if (window.pageYOffset > 400) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
     }
   };
 
-  const scrollTop = () =>{
-    window.scrollTo({top: 0, behavior: 'smooth'});
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
   };
 
-  window.addEventListener('scroll', checkScrollTop)
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisibility);
+  }, []);
 
   return (
-        <ScrollButton className="scrollTop" onClick={scrollTop} style={{height: 40, display: showScroll ? 'flex' : 'none'}}/>
+    <div className="scroll-to-top">
+      {isVisible && 
+        <div onClick={scrollToTop}>
+          <img src='https://i.postimg.cc/44Ytsk8Z/top-arrow-emoj.png' alt='Go to top'/>
+        </div>}
+    </div>
   );
 }
-
-export default ScrollArrow;

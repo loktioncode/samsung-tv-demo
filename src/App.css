@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .scrollTop {
@@ -14,11 +15,13 @@
   animation: fadeIn 0.3s;
   transition: opacity 0.4s;
   opacity: 0.5;
+  position:fixed;
 }
 
 .scrollTop:hover{
   opacity: 1;
 }
+
 
 @keyframes fadeIn {
   0% {
