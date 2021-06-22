@@ -1,3 +1,9 @@
-.signin{
-    float: right;
+.search{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
+.brand{
+    padding-left: 50px;
+}
+

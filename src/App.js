@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import BlockBuster from './components/BlockBuster';
 import FindRetailer from './components/FindRetailer';
 import Footer from './components/Footer';
+import ScrollArrow from './components/BacktoTop';
 import Section from './components/widgets/SimpleSection';
 import FirstSectionImage from './images/1600x720-X1X.jpg';
 import SecondSectionImage from './images/lifestyle-shot-1600x600.jpg';
@@ -24,6 +25,7 @@ function App() {
       <BlockBuster />
       <FindRetailer />
       <Footer />
+      <ScrollArrow />
     </div>
   );
 }

@@ -62,34 +62,32 @@ const Footer = (props) => {
                         </div>
 
                     </Col>
-                    <Col lg={6} >
-                        <Nav className="ml-auto">
+                    <div lg={6} width="100%" className="right">
+                        <Nav  >
                             <p>
-                                <a href="#!" class="text-reset" style={styles.p}>Windows 10</a>
+                                <a href="#!" class="text-reset" style={styles.p}>Contact Us</a>
                             </p>
 
                             <p>
-                                <a href="#!" class="text-reset" style={styles.p}>Windows 10</a>
+                                <a href="#!" class="text-reset" style={styles.p}>Privacy & Cookies</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset" style={styles.p}>Windows 10</a>
+                                <a href="#!" class="text-reset" style={styles.p}>Terms of use</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset" style={styles.p}>Windows 10</a>
+                                <a href="#!" class="text-reset" style={styles.p}>Trademarks</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset" style={styles.p}>Windows 10</a>
+                                <a href="#!" class="text-reset" style={styles.p}>About our ads</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset" style={styles.p}>Windows 10</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset" style={styles.p}>Windows 10</a>
+                                <a href="#!" class="text-reset" style={styles.p}> Microsoft</a>
                             </p>
 
                         </Nav>
+                        
 
-                    </Col>
+                    </div>
                 </Row>
             </div>
         </React.Fragment>

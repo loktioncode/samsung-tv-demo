@@ -1,0 +1,28 @@
+.footer{
+    background-color: rgb(247, 247, 247);
+    height: 40vh;
+    width:100%;
+    padding: 50px
+}
+
+.footerColumn{
+    text-align: left;
+}
+
+.lowerFooter{
+    margin-top: 50px;
+    justify-content:left;
+    text-align: left;
+}
+
+.right {
+    position: absolute;
+    left: auto;
+    right: 0px;
+    width: 600px;
+    padding: 10px;
+  }
+
+p{
+    padding-right: 15px
+}
