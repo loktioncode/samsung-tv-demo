@@ -1,24 +1,32 @@
 import React from 'react';
 import './FindRetailer.css';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import FeaturedImage from '../images/Feature-800x450.jpg';
+
 
 
 const styles = {
     h6: {
         fontWeight: 300,
-        fontSize: '32px',
-        color: '#000'
+        fontSize: '28px',
+        color: '#000',
+        textAlign: 'left',
+
     },
     p: {
         fontWeight: 200,
-        fontSize: '18px',
-        textAlign: 'center',
-        paddingTop:'25vh',
-        paddingLeft: "250px",
-        paddingRight: "250px"
+        fontSize: '16px',
+        textAlign: 'left',
     },
     image: {
-        paddingTop: '25px',
+        paddingTop: '50px',
+    },
+    spacing: {
+        paddingTop: '100px',
+    },
+    col:{
+        paddingTop:'120px',
+        marginLeft: '0px',
     }
 
 };
@@ -26,11 +34,25 @@ const styles = {
 const FindRetailer = (props) => {
     return (
         <React.Fragment>
+
             <div className="retailer">
-                <p style={styles.p} className='ml-auto'>
-                    All games look and play great on Xbox One X. But select titles are optimised to take advantage of the world’s most powerful console.
-                    These games are Xbox One X Enhanced
-                </p>
+                <Container>
+                    <Row className="d-flex" style={styles.spacing}>
+
+                        <Col lg={4} style={styles.col} sm>
+                            <h6 style={styles.h6}>Enjoy truly immersive gaming</h6>
+                            <p style={styles.p}> Play on the world’s most powerful console and the
+                                high-performance Samsung QLED TV </p>
+
+                            <Button variant="success">Find a Retailer</Button>{' '}
+                        </Col>
+
+                        <Col lg={6} className='align-self-end' >
+                            <img src={FeaturedImage} alt="xbox blockbusters on samsung tv" width='800px' height='400px' />
+                        </Col>
+
+                    </Row>
+                </Container>
             </div>
         </React.Fragment>
 
