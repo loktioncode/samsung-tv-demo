@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Container, Row, Col, Image} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import './Visuals.css';
 
 
