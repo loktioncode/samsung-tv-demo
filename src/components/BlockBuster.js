@@ -27,7 +27,8 @@ const styles = {
         color: "#fff",
         textAlign: 'center',
         paddingLeft: "250px",
-        paddingRight: "250px"
+        paddingRight: "250px",
+        paddingBottom: "25vh"
     },
     image: {
         paddingTop: '25px',
