@@ -28,7 +28,7 @@ const styles = {
         textAlign: 'center',
         paddingLeft: "250px",
         paddingRight: "250px"
-},
+    },
     image: {
         paddingTop: '25px',
     }
@@ -38,7 +38,7 @@ const styles = {
 const BlockBuster = (props) => {
     return (
         <React.Fragment>
-            <div style={styles.titleText} className="bg">
+            <div className="bg">
                 <h5 style={styles.h4}>The biggest blockbusters play better on Xbox One X and Samsung</h5>
                 <Row className="justify-content-md-center">
                     <Col xs={12} sm={8} md={8}>
