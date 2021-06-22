@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Nav, Row, Col, Image } from 'react-bootstrap';
+import { Nav, Row, Col} from 'react-bootstrap';
 
 
 const styles = {

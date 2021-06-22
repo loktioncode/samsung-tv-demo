@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Container, Row, Col, Image } from 'react-bootstrap';
+import {Row, Col } from 'react-bootstrap';
 import './BlockBuster.css';
 import displayImage from '../images/1250x600.jpg';
 import consoleImage from '../images/XboxOneX.jpg';
