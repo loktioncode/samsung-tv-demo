@@ -18,7 +18,7 @@ const styles = {
     h4: {
         paddingTop: '25vh',
         fontWeight: 300,
-        fontSize: '38px',
+        fontSize: '32px',
         color: "#fff"
     },
     p: {
@@ -40,9 +40,9 @@ const BlockBuster = (props) => {
     return (
         <React.Fragment>
             <div className="bg">
-                <h5 style={styles.h4}>The biggest blockbusters play better on Xbox One X and Samsung</h5>
+                <h5 style={styles.h4} className="title" sm={2}>The biggest blockbusters play better on Xbox One X and Samsung</h5>
                 <Row className="justify-content-md-center">
-                    <Col xs={12} sm={8} md={8}>
+                    <Col xs={12} sm={8} md={8} >
                         <img src={displayImage} alt="xbox blockbusters on samsung tv" width='100%' style={styles.image} />
                     </Col>
                     <Col xs={12} sm={8} md={8}>
@@ -63,7 +63,7 @@ const BlockBuster = (props) => {
                     </Row>
                 </Row>
                 <h6 style={styles.h6}>Look for the feature icons</h6>
-                <p style={styles.p} className='ml-auto'>
+                <p style={styles.p} className='ml-auto detail'>
                     All games look and play great on Xbox One X. But select titles are optimised to take advantage of the world’s most powerful console.
                     These games are Xbox One X Enhanced
                 </p>

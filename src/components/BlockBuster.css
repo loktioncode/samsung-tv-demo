@@ -4,4 +4,37 @@
     width:100%;
     background-color:#161616;
     margin-top: -100px;
+    min-height:fit-content
 }
+
+
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+   .bg{
+    width:100%;
+    background-color:#161616;
+    min-height:fit-content
+}
+.title{
+    display: none;
+}
+.detail{
+    display: none;
+}
+  }
+  
+  /* On screens that are 600px or less */
+  @media screen and (max-width: 600px) {
+    .bg{
+        width:100%;
+        background-color:#161616;
+        min-height:fit-content
+    }
+    .title{
+        display: none;
+    }
+    .detail{
+        display: none;
+    }
+  }
+
