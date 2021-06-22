@@ -1,6 +1,6 @@
 
 
-This project is Live at [Samsung Xbox Demo](https://github.com/facebook/create-react-app).
+This project is Live at [Samsung Xbox Demo](https://samsung-tv-demo.vercel.app/).
 
 ## Available Scripts
 
