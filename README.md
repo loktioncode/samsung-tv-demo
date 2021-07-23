@@ -1,4 +1,4 @@
-
+## This is a landing page i built using React.js for a Web Dev Role Challenge
 
 This project is Live at [Samsung Xbox Demo](https://samsung-tv-demo.vercel.app/).
 
